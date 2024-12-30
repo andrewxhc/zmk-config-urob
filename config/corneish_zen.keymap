@@ -9,7 +9,7 @@
 
 #define X_RT  &kp ESC
 #define X_RM  &kp END
-#define X_RB  &mo SYS
+#define X_RB  &kp RWIN
 
 #define X_LH  SMART_NUM      // thumb row, left
 #define X_RH  &smart_mouse   // thumb row, right
