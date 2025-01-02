@@ -24,5 +24,5 @@
 /* source the main keymap */
 #include "base.keymap"
 
-/* use 5-column layout for Zen */
+/* use 6-column layout for Zen */
 /{ chosen { zmk,physical-layout = &foostan_corne_6col_layout; }; };
