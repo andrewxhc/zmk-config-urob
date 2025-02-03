@@ -7,8 +7,7 @@
 #define X_LM  &kp HOME
 #define X_LB  &kp LCTRL
 
-// #define X_RT  &mo SYS
-#define X_RT  &trans
+#define X_RT  &kp ESC
 #define X_RM  &kp END
 #define X_RB  &kp RWIN
 
@@ -20,10 +19,13 @@
 // #define X_RH  &smart_mouse  // thumb row, right
 
 /* activate bluetooth */
-#define CONFIG_WIRELESS
+#define CONFIG_WIRELESS 1
 
 /* source the main keymap */
 #include "base.keymap"
 
-/* use 6-column layout for Zen */
-/{ chosen { zmk,physical-layout = &foostan_corne_6col_layout; }; };
+/* use 5-column layout for Zen */
+// ZMK_APPLY_MATRIX_TRANSFORM(five_column_transform)
+
+
+
