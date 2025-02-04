@@ -235,7 +235,7 @@ ZMK_LAYER(base,
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
 )
 
-// &kp TAB                                                                                                                                                          &kp ESC
+// &kp TAB                                                                                                                                                          &mo SYS
 // &kp HOME                                                                                                                                                         &kp END
 // &kp LCTRL                                                                                                                                                        &kp RWIN
 //                                      SMART_NUM                                                                           &smart_mouse
