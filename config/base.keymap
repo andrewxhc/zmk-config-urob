@@ -59,7 +59,7 @@
 
 #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
     ZMK_HOLD_TAP(NAME, \
-        flavor = "tap-preferred"; \
+        flavor = "tap-preferred"; \ // comment
         tapping-term-ms = <280>; \
         quick-tap-ms = <QUICK_TAP_MS>; \
         require-prior-idle-ms = <150>; \
