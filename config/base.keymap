@@ -60,7 +60,6 @@
 #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
     ZMK_HOLD_TAP(NAME, \
         flavor = "balanced"; \
-        // flavor = "tap-preferred"; \
         tapping-term-ms = <280>; \
         quick-tap-ms = <QUICK_TAP_MS>; \
         require-prior-idle-ms = <150>; \
@@ -176,7 +175,6 @@ SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GT)
 // tap: space | shift + tap: dot -> space -> sticky shift | hold: activate layer
 ZMK_HOLD_TAP(lt_spc,
     flavor = "balanced";
-    // flavor = "tap-preferred";
     tapping-term-ms = <200>;
     quick-tap-ms = <QUICK_TAP_MS>;
     // tapping-term-ms = <280>; \
