@@ -17,12 +17,13 @@
 
 #define DEF 0
 #define QWER 1
-#define NAV 2
-#define FN 3
-#define NUM 4
-#define SYS 5
-#define MOUSE 6
-#define CON 7
+#define SYM 2
+#define NAV 3
+#define FN 4
+#define NUM 5
+#define SYS 6
+#define MOUSE 7
+#define CON 8
 
 #define XXX &none
 #define ___ &trans
