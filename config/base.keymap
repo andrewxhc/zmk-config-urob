@@ -47,12 +47,13 @@
     quick-tap-ms = <QUICK_TAP_MS>;
 };
 
-ZMK_BEHAVIOR(tog_on, layer_toggle,
-    display-name = "Toggle Layer On";
-    toggle-mode = "on";
-)
+// ZMK_BEHAVIOR(tog_on, layer_toggle,
+//     display-name = "Toggle Layer On";
+//     toggle-mode = "on";
+// )
 
 ZMK_BEHAVIOR(tog_off, layer_toggle,
+    #binding-cells = <1>;
     display-name = "Toggle Layer Off";
     toggle-mode = "off";
 )
