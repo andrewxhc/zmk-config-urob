@@ -52,6 +52,11 @@ ZMK_BEHAVIOR(tog_on, layer_toggle,
     toggle-mode = "on";
 )
 
+ZMK_BEHAVIOR(tog_off, layer_toggle,
+    display-name = "Toggle Layer Off";
+    toggle-mode = "off";
+)
+
 // behaviors {
 //     tog_on: toggle_layer_on_only {
 //         compatible = "zmk,behavior-toggle-layer";
