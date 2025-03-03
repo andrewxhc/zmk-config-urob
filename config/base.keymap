@@ -66,9 +66,16 @@
 //     };
 // };
 
-ZMK_TAP_DANCE(tab_esc,
-    tapping-term-ms = <100>;
-    bindings = <&kp TAB>, <&kp ESC>;
+// ZMK_TAP_DANCE(tab_esc,
+//     tapping-term-ms = <150>;
+//     bindings = <&kp TAB>, <&kp ESC>;
+// )
+
+ZMK_HOLD_TAP(tab_esc,
+    flavor = "tap-preferred";
+    tapping-term-ms = <220>;
+    quick-tap-ms = <220>;
+    bindings = <&kp TAB> <&kp ESC>;
 )
 
 /* Homerow mods */
