@@ -75,7 +75,7 @@ ZMK_HOLD_TAP(tab_esc,
     flavor = "tap-preferred";
     tapping-term-ms = <220>;
     quick-tap-ms = <220>;
-    bindings = <&kp> <&kp>;
+    bindings = <&kp>, <&kp>;
 )
 
 /* Homerow mods */
