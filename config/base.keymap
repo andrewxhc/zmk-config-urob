@@ -9,7 +9,8 @@
     #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
 #endif
 
-// Useless comment
+// Things to add:
+// Repeat key
 
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/unicode-chars/greek.dtsi"
@@ -268,7 +269,7 @@ ZMK_LAYER(base,
 //├─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┤
     &kp LCTRL       &kp Z         &kp W         &kp M         &kp D         &kp B           X_MB     &comma_morph  &kp O         &kp Y         &kp K         &kp J           &kp RWIN
 //╰─────────────╯ ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯ ╰─────────────╯
-                                                SMART_NUM     &smart_shft   NAV_BSPC        X_MH     &lt SYM RET    &lt_spc NAV 0 &smart_mouse                                            
+                                                SMART_NUM     &smart_shft   NAV_BSPC        X_MH     &lt SYM RET   &lt_spc NAV 0 &smart_mouse                                            
 //                                            ╰─────────────┴─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────┴─────────────╯
 )
 
