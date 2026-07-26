@@ -17,6 +17,7 @@
 // Window management keys not finished
 // Try local build instead of github actions
 // Ink display graphics
+// Skip forward/backward functions instead of next/last media
 
 #define DSEND 0
 #define QWERTY 1
