@@ -58,7 +58,7 @@ parse_config:
     "&ok_dsk_prev": Prev Desk
     "&ok_dsk_mgr": Desk View
     "&ok_dsk_next": Next Desk
-    "&swapper_app": AppWin
+    "&window_swapper": AppWin
     "&ok_tile_left": Tile Left
     "&ok_tile_fill": Fill
     "&ok_tile_right": Tile Right
